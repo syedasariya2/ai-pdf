@@ -23,7 +23,7 @@ st.set_page_config(
 
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 TOKENIZER_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
-LLM_MODEL = "llama-3.3-70b-versatile"
+LLM_MODEL = "openai/gpt-oss-120b"
 
 CHUNK_SIZE = 350       # tokens
 CHUNK_OVERLAP = 60     # tokens
